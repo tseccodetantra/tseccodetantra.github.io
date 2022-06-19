@@ -1,0 +1,77 @@
+
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		height:100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	
+	html{
+		height:100%;
+		background: #000000 url(../15trans.png);
+		background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: auto;
+	}
+
+	#cspio-page{
+		background-color: rgba(0,0,0,0);
+	}
+	
+	.flexbox #cspio-page{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cspio body{
+		background: transparent;
+	}
+
+	.cspio body, .cspio body p{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+        font-size: 20px;
+        line-height: 1.50em;
+        color:#ffffff;
+    }
+
+
+
+    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
+        font-family: 'Pacifico';
+        color:#ffffff;
+    }
+
+	#cspio-headline{
+		/* font-family: 'Pacifico'; */
+		font-family: 'Frank Ruhl Libre', serif;
+		font-weight: 800;
+		font-size: 48px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
+
+	.cspio button{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 600;
+		font-size: 48px;
+    }
+	
+    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
+		color: #ffffff;
+	}
+
+	#cspio-socialprofiles a {
+	  color: #ffffff;
+	}
+
+	#cspio-socialprofiles a:hover {
+		color: #cf9f3a;
+	}
+
+
