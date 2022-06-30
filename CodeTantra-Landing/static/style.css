@@ -2,6 +2,7 @@
 	html {
 		height: 100%;
 		overflow: hidden;
+		scroll-behavior: smooth;
 	}
 
 	body {
@@ -12,8 +13,8 @@
 	
 	html{
 		height:100%;
-		background: #000000 url(../15trans.png);
-		background-size: contain;
+		background: #000000 url(../img/bg3.png);
+		background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
         overflow: auto;
@@ -23,10 +24,10 @@
 		background-color: rgba(0,0,0,0);
 	}
 	
-	.flexbox #cspio-page{
+	/* .flexbox #cspio-page{
 		align-items: center;
 		justify-content: center;
-	}
+	} */
 
 	.cspio body{
 		background: transparent;
@@ -40,10 +41,27 @@
         color:#ffffff;
     }
 
-
+	@media (max-width: 500px) {
+		#cspio-headline{
+			/* font-family: 'Pacifico'; */
+			font-family: 'Frank Ruhl Libre', serif;
+			font-weight: 400;
+			font-size: 20px;
+			color:#ffffff;
+			line-height: 1.00em;
+		}
+		#cspio-headline2{
+			/* font-family: 'Pacifico'; */
+			font-family: 'Frank Ruhl Libre', serif;
+			font-weight: 200;
+			font-size: 10px;
+			color:#ffffff;
+			line-height: 1.00em;
+		}
+	  }
 
     .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-        font-family: 'Pacifico';
+        /* font-family: 'Pacifico'; */
         color:#ffffff;
     }
 
@@ -51,7 +69,7 @@
 		/* font-family: 'Pacifico'; */
 		font-family: 'Frank Ruhl Libre', serif;
 		font-weight: 800;
-		font-size: 48px;
+		font-size: 40px;
 		color:#ffffff;
 		line-height: 1.00em;
 	}
@@ -59,25 +77,18 @@
 		/* font-family: 'Pacifico'; */
 		font-family: 'Frank Ruhl Libre', serif;
 		font-weight: 400;
-		font-size: 36px;
+		font-size: 30px;
 		color:#ffffff;
 		line-height: 1.00em;
 	}
-	#cspio-headline3{
-		/* font-family: 'Pacifico'; */
-		font-family: 'Frank Ruhl Libre', serif;
-		font-weight: 400;
-		font-size: 32px;
-		color:#ffffff;
-		line-height: 1.00em;
-	}
+
 	.cspio button{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 500;
-		font-size: 20px;
-		border: 0px;
-		border-radius: 10px;
+        background-color: #3770fe;
     }
+	.cspio button:hover{
+        background-color: #3770fe;
+    }
+	
 	
     .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
 		color: #ffffff;
@@ -90,12 +101,3 @@
 	#cspio-socialprofiles a:hover {
 		color: #cf9f3a;
 	}
-	.myBtn{
-		background-color: #cf9f3a;
-		color: black;
-		padding: 10px;
-		/* height: 50px;
-		width: fit-content; */
-		font-size: 2;
-	}
-

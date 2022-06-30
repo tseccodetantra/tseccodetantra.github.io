@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="cspio">
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>CodeTantra Coming Soon</title>
+
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./static/trans-parent-logo.png">
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
+
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+
+	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+			
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	<link rel="stylesheet" href="./static/css/style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Modernizr -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	
+</head>
+<body>
+	<div id="cspio-page">
+		<div id="cspio-content">
+			
+			<img id="cspio-logo" src="./static/trans-parent-logo.png" height="20%" width="20%">
+			    				
+			<h1 id="cspio-headline">Code<font color="#cf9f3a">Tantra</font></h1>		
+			
+			<div id="cspio-description">Coming Soon</div>			    				
+			   						    			    								    			    			    				
+			<div id="cspio-socialprofiles">
+				<a href="https://www.instagram.com/tseccodetantra/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>			
+				<a href="https://www.linkedin.com/company/tsec-codetantra" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>			
+				<a href="https://twitter.com/TSECCodeTantra" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				<a href="https://github.com/tseccodetantra" target="_blank"><i class="fa fa-github fa-2x"></i></a>			
+			</div>
+									    									    			    			    							    			     			    		
+		</div>
+	</div>
+
+
+	<script>
+		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+
+		function resize(){
+				$('head').append("<style id='form-style' type='text/css'></style>");
+				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
+		}
+		
+		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+			function(){
+				var width = $('#cspio-field-wrapper').width();
+				if(width < 480 && width != 0){
+					resize();
+				}
+			}
+		);
+	</script>
+
+	</body>
+</html>
